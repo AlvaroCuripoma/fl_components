@@ -8,9 +8,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Componentes en flutter')
-      ),
+      appBar: AppBar(title: const Text('Componentes en flutter')),
       body: ListView.separated(
         itemBuilder: (context, index) => ListTile(
           leading: Icon(

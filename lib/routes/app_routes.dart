@@ -1,5 +1,5 @@
-import 'package:fl_components/models/menu_opction.dart';
 import 'package:flutter/material.dart';
+import 'package:fl_components/models/menu_opction.dart';
 import 'package:fl_components/screens/screen.dart';
 
 class AppRoutes {
@@ -29,6 +29,16 @@ class AppRoutes {
         route: 'card',
         name: 'Card Screen',
         screen: const CardScreen(),
+        icon: Icons.home_max_sharp),
+    MenuOpction(
+        route: 'avatar',
+        name: 'Avatar Screen',
+        screen: const AvatarScreen(),
+        icon: Icons.home_max_sharp),
+    MenuOpction(
+        route: 'animated',
+        name: 'Animated Screen',
+        screen: const AnimatedScreen(),
         icon: Icons.home_max_sharp),
   ];
 

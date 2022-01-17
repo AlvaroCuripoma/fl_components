@@ -21,17 +21,15 @@ class CustomCardType1 extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.end,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 TextButton(
                   onPressed: () {},
                   child: const Text('Cancel'),
-                  style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(AppTheme.primary)),
                 ),
                 TextButton(
                   onPressed: () {},
                   child: const Text('Ok'),
-                  style: TextButton.styleFrom(primary: Colors.indigo),
                 ),
               ],
             ),
